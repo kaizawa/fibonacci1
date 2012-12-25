@@ -46,12 +46,9 @@ public class Fibonacci1 {
         fiboCount.incrementAndGet();
         totalSteps.incrementAndGet();
         
-        if(0 == input)
-        {
+        if(0 == input) {
             return 0;
-        } 
-        else if(1 == input)
-        {
+        } else if(1 == input) {
             return 1;
         }
         
